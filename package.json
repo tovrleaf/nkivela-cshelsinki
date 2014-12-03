@@ -1,0 +1,9 @@
+{
+    "version": "0.1.0",
+    "name": "nkivela-cshelsinki",
+    "description": "courses summary for @me",
+    "homepage": "http://www.cs.helsinki.fi/u/nkivela",
+    "dependencies": {
+        "coffee-script": "1.8.0"
+    }
+}
