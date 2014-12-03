@@ -143,19 +143,17 @@ courses = [
 ]
 
 $ ->
-    container = $ "#main .content .pure-table tbody"
+    container = $ "#courses tbody"
     total = 0
     _.map courses, (c) ->
-        console.log c[0]
         container.append "<tr>
             <td><code>" + c[0] + "</code></td>
-            <td>" + c[2] + "</td>
-            <td><code><b>" + c[1] + "</b></code></td>
+            <td class=\"highlight\">" + c[2] + "</td>
+            <td class=\"highlight\"><code><b>" + c[1] + "</b></code></td>
             <td>" + c[4] + "</td>
             <td>" + c[3] + "</td>
         </tr>"
 
         total += c[1]
 
-    $("#total-credits").html total
-
+    $("#total-credits__p").html total
