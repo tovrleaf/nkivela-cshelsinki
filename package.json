@@ -4,6 +4,7 @@
     "description": "courses summary for @me",
     "homepage": "http://www.cs.helsinki.fi/u/nkivela",
     "dependencies": {
-        "coffee-script": "1.8.0"
+        "coffee-script": "1.8.0",
+        "react-tools": "0.12.1"
     }
 }
